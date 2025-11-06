@@ -38,12 +38,12 @@ button {
     padding: 10px;
     font-size: 15px;
     color: rgb(76, 76, 76);
+    transition: background-color 0.2s;
 }
 
 button:hover {
     background-color:rgb(219, 221, 226);
     cursor: pointer;
-    transition: background-color 150ms ease-in-out;
 }
 
 button:active {
