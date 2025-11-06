@@ -1,0 +1,95 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(218, 221, 230);
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    font-size: 55px;
+    color:rgb(102, 102, 102);
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    background-color: rgb(171, 172, 172);
+    padding: 30px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: rgb(76, 76, 76);
+}
+
+button {
+    border-radius: 5px;
+    border-width: 0;
+    background-color:rgba(212, 212, 212, 0.834);
+    padding: 10px;
+    font-size: 15px;
+    color: rgb(76, 76, 76);
+}
+
+button:hover {
+    background-color:rgb(219, 221, 226);
+    cursor: pointer;
+    transition: background-color 150ms ease-in-out;
+}
+
+button:active {
+    background-color: rgb(235, 237, 243);
+    transform: translateY(2px);
+}
+
+#doubleBorder {
+    display: flex;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: black;
+    background-color: rgb(224, 53, 53);
+    width: 550px;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+}
+
+#gridContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    background-color: white;
+    width: 500px;
+    height: 500px;
+}
+
+.gridBox {
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.321);
+}
+
+.gridSize {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.color {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

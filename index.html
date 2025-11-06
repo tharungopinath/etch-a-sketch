@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Etch-a-Sketch</title>
+</head>
+<body>
+    <h1>Etch-a-Sketch</h1>
+    <div id="container">
+        <div id="menu">
+            <button id="clear">Clear</button>
+            <button id="erase">Erase</button>
+            <div class=gridSize>
+                <div id="gridText">Enter Grid Size:</div>
+                <div class="input">
+                    <input id="gridInput" type="text">
+                </div>
+                <button id="gridSubmit">Submit</button>
+            </div>
+            <div class=color>
+                <div id="colorText">Enter Color:</div>
+                <div class="input">
+                    <input id="colorInput" type="text">
+                </div>
+                <button id="colorSubmit">Submit</button>
+            </div>
+            <button id="random">Randomize</button>
+        </div>
+        <div id="doubleBorder">
+            <div id="gridContainer"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
